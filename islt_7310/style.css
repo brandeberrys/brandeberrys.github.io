@@ -4,3 +4,6 @@ p.intro::first-letter {
     font-size:200%;
 }
 p.indent {text-indent: 15px;}
+div {
+        padding: 25px;
+    }
