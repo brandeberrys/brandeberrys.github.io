@@ -27,8 +27,11 @@ nav{
 main{
     grid-area: main;
     display: grid;
+    padding-left: 10px;
+    padding-right: 10px;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+    grid-gap: 10px;
     grid-template-areas: 
     "portrait"
     "bio"
@@ -38,28 +41,34 @@ main{
 
 .portrait{
     grid-area: portrait;
-    grid-column: 1 / 2;
+    background-color: lightgreen;
+    grid-column: 1 / 3;
     grid-row: 1;
 }
 
 .bio{
     grid-area: bio;
+    background-color: lightgrey;
     grid-column: 3 / 6;
     grid-row: 1
 }
 
 .boxlink{
     grid-area: boxlink;
-    grid-column: 1 / 3;
+    background-color: lightgrey;
+    grid-column: 1 / 2
+    ;
     grid-row: 2;
 }
 
 .vidres{
     grid-area: vidres;
-    grid-column: 3 / 5;
+    background-color: lightgreen;
+    grid-column: 2 / 6;
     grid-row: 2;
 }
 
 footer{
     grid-area: footer;
+    background-color: #a6d5a9;
 }
