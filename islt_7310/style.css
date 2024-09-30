@@ -30,13 +30,27 @@ main{
     padding-left: 10px;
     padding-right: 10px;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     grid-gap: 10px;
     grid-template-areas: 
+    "intro"
     "portrait"
     "bio"
     "boxlink"
-    "vidres";
+    "vidres"
+    "Project1text"
+    "Project1artifact"
+    "Project2artifact"
+    "Project2text"
+    "Project3text"
+    "Project3artifact"
+    "philosophy"
+    "careergoals";
+}
+
+.intro{
+    grid-area: intro;
+    grid-column: 1 / 6
 }
 
 .portrait{
@@ -68,7 +82,85 @@ main{
     grid-row: 2;
 }
 
+.Project1text{
+    grid-area: Project1text;
+    background-color: lightgreen;
+    grid-column: 1 / 3;
+    grid-row: 1;
+}
+
+.Project1artifact{
+    grid-area: Project1artifact;
+    background-color: lightgrey;
+    grid-column: 3 / 6;
+    grid-row: 1;
+}
+
+.Project2artifact{
+    grid-area: Project2artifact;
+    background-color: lightgrey;
+    grid-column: 1 / 4;
+    grid-row: 2;
+}
+
+.Project2text{
+    grid-area: Project2text;
+    background-color: lightgreen;
+    grid-column: 4 / 6;
+    grid-row: 2;
+}
+
+.Project3text{
+    grid-area: Project3text;
+    background-color: lightgreen;
+    grid-column: 1 / 3;
+    grid-row: 3;
+}
+
+.Project3artifact{
+    grid-area: Project3artifact;
+    background-color: lightgrey;
+    grid-column: 3 / 6;
+    grid-row: 3;
+}
+
+.philosophy{
+    grid-area: philosophy;
+    grid-column: 1 / 6;
+    grid-row: 1;
+    padding: 10px;
+}
+
+.careergoals{
+    grid-area: careergoals;
+    grid-column: 1 / 6;
+    grid-row: 2;
+    padding: 10px;
+}
+
 footer{
     grid-area: footer;
     background-color: #a6d5a9;
+}
+
+p {
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: .75rem;
+    font-weight: 400;
+    line-height: 1;
+    margin-bottom: 1em;
+}
+
+@media (min-width: 600px) {
+    p {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 800px) {
+    p {
+        font-size: 1.25rem;
+        line-height: 1.25;
+    }
 }
