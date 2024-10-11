@@ -1,7 +1,12 @@
 @font-face {
     font-family: LovatoLight;
-    src: url("Lovato-Light.otf")
+    src: url('Lovato-Light.otf');
 }
+
+body {
+    font-family: LovatoLight;
+}
+
 h1 {color: #003300;}
 p.intro::first-letter {
     color:#003300;
