@@ -1,3 +1,7 @@
+@font-face {
+    font-family: LovatoLight;
+    src: url("Lovato-Light.otf")
+}
 h1 {color: #003300;}
 p.intro::first-letter {
     color:#003300;
@@ -145,7 +149,7 @@ footer{
 
 p {
     color: black;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: LovatoLight, Georgia, serif;
     font-size: .75rem;
     font-weight: 400;
     line-height: 1;
