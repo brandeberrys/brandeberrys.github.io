@@ -43,7 +43,7 @@ nav ul > li ul {
 nav ul > li:hover > ul {
     display: block;
     position: absolute;
-    align: center;
+    box-align: center;
     background-color: #A6D5A9;
     margin:0;
 }
@@ -60,7 +60,7 @@ nav ul > li:hover > ul li a:link{
     margin: 0;
 }
 body {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Lovato', Georgia, 'Times New Roman', Times, serif;
     font-size: 16px;
 }
 nav {

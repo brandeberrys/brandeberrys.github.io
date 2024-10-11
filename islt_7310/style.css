@@ -1,13 +1,10 @@
 @font-face {
-    font-family: 'Lovato-Light';
-    src: url('https://brandeberrys.github.io/islt_7310/Lovato-Light-webfont.woff2') format('woff2'),
-         url('https://brandeberrys.github.io/islt_7310/Lovato-Light-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+    font-family: Lovato;
+    src: url('Lovato-Light.otf');
 }
 
-body {
-    font-family: Lovato-Light, serif;
+body{
+    font-family: 'Lovato';
 }
 
 h1 {color: #003300;}
@@ -157,7 +154,7 @@ footer{
 
 p {
     color: black;
-    font-family: Lovato-Light;
+    font-family: 'Lovato', serif;
     font-size: .75rem;
     font-weight: 400;
     line-height: 1;
