@@ -212,7 +212,7 @@ p {
     .header {
         text-align: center;
     }
-    p, ul, blockquote {
+    p, ul, blockquote, footer {
         font-family: serif;
         font-size: 12pt;
         orphans: 3;
