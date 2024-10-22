@@ -152,6 +152,7 @@ main{
 
 footer{
     grid-area: footer;
+    color: whitesmoke
 }
 
 .footer{
