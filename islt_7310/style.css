@@ -152,6 +152,10 @@ main{
 
 footer{
     grid-area: footer;
+    background-color: lightgreen;
+}
+
+.footer{
     background-image: url('Websitefooter.png');
     background-size: cover;
 }
