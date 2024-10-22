@@ -168,9 +168,13 @@ p {
     line-height: 1;
     margin-bottom: 1em;
 }
+.pic{
+    width: 15px;
+    height: 15px;
+}
 
 .picbig{
-    position:absolute;
+    position: absolute;
     width: 0px;
     -webkit-transition: width 0.3s linear 0s;
     transition: width 0.3s linear 0s; 
