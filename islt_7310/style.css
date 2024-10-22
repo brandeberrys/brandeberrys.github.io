@@ -152,7 +152,8 @@ main{
 
 footer{
     grid-area: footer;
-    background-color: #a6d5a9;
+    background-image: url(Websitefooter.png);
+    background-size: cover;
 }
 
 p {
