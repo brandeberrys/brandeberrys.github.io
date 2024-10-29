@@ -51,6 +51,7 @@ main{
     "bio"
     "boxlink"
     "vidres"
+    "table1"
     "Project1text"
     "Project1artifact"
     "Project2artifact"
@@ -92,6 +93,41 @@ main{
     background-color: lightgreen;
     grid-column: 3 / 6;
     grid-row: 2;
+}
+
+.table1{
+    grid-area: table1;
+    background-color:#003300;
+    color: white;
+    grid-column: 1 / 6;
+    grid-row: 3;
+}
+
+table{
+    width: 400px;
+    /*border-spacing: 40px;*/
+}
+
+th{
+    text-align: left;
+    background-color: #003300;
+}
+
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: green;
+}
+
+tr:nth-child(odd) {
+    background-color: gray;
 }
 
 .Project1text{
