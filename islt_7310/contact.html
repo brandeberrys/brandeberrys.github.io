@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+ <!--
+
+*****************************************************************************
+
+Title:  Contact
+
+Use:  Contact information
+
+Author:  Samantha Brandeberry
+
+School/Term:  University of Missouri - Columbia, Fall 2024
+
+Developed: October 28, 2024
+
+******************************************************************************
+
+-->   
+               <meta charset="utf-8">
+               <meta name="viewport" content="width=device-width, initial-scale=1.0">
+               <title>Contact</title>
+
+               <link rel="stylesheet" type="text/css" href="style.css">
+               <link rel="stylesheet" type="text/css" href="nav.css">
+               <link rel="stylesheet" href="Lovato-Light.otf">
+               <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+               <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+               <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+</head>
+<body>
+    <header>
+        <h1> Contact </h1>
+    </header>
+    <nav>
+        <ul class="nav">
+            <li class="item"><a href="index.html">Home</a></li>
+            <li class="item"><a href="about.html">About</a></li>
+            <li class="item has-submenu">
+                <a href="project.html">Portfolio</a>
+                <ul class="submenu">
+                    <li class="subitem"><a href="#">Virtual Reality</a></li>
+                    <li class="subitem"><a href="#">Breakout Missouri 4-H</a></li>
+                    <li class="subitem"><a href="#">Designing Games for Learning</a></li>    
+                </ul>
+            </li>
+            <li class="item"><a href="reflection.html">Philosophy</a></li>
+            <li class="item"><a href="#contact.html">Contact</a></li>
+            <li class="toggle"><a href="#"><i class="fas fa-bars"></i></a></li>
+        </ul>
+    </nav>
+    <main>
+        <form action="mailto:brandeberrys@missouri.edu?Subject=Portfolio%20Website%20Contact" method="post" enctype="text/plain">
+            <div>
+            <label for="first"> First Name </label>
+            <input type="text" id="first" autofocus required>
+            </div>
+            <div>
+            <label for="last"> Last Name </label>
+            <input type="text" id="last" autofocus required>
+            </div>
+            <div> 
+            <label for="email"> Email </label>
+            <input type="text" id="email" autofocus required>
+            </div>
+            <div>
+            <label for="message"> Message </label>
+            <textarea id="message" autofocus required> </textarea>
+            </div>
+            <input type="submit">
+        </form>
+    </main>
+    <footer>
+        <div class="footer">
+        <p>Samantha Brandeberry<br/>
+        
+        <img class="pic" src="images/email.png" alt="Email icon">brandeberrys@missouri.edu
+        <img class="picbig" src="images/email.png" alt="Email icon"><br/>
+        
+        <img class="pic" src="images/phone.png" alt="phone icon">1+888-888-8888
+        <img class="picbig" src="images/phone.png" alt="phone icon"><br/>
+        
+        Copyright © 2024 All rights reserved by Samantha Brandeberry, M.Ed. All rights reserved.
+        </p>
+        </div>
+    </footer>
+</body>
+</html>
